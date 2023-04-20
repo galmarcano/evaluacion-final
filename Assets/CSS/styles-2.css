@@ -1,0 +1,78 @@
+.logo-style {
+    max-height: 80px;
+}
+
+.title-style {
+    font-size: 2rem;
+}
+
+.subtitle1-style {
+    font-size: 1.8rem;
+    border-top: 2px solid black;
+    display: inline-block;
+}
+
+.subtitle2-style {
+    font-size: 1.8rem;
+}
+
+.content-1 {
+    text-align: center;
+}
+
+.table-responsive img {
+    max-width: 80%;
+    height: auto;
+}
+
+#first-table {
+    margin: auto;
+    margin-top: 0;
+    max-width: 90%;
+    overflow-y: scroll;
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+td,
+th {
+    vertical-align: middle;
+}
+
+thead {
+    position: sticky;
+    top: 0;
+}
+
+@media (max-width: 991.98px) {
+    .logo-style {
+        max-height: 55px;
+    }
+
+    .title-style {
+        font-size: 1rem;
+        align-content: center;
+        font-style: bold;
+    }
+
+    .subtitle1-style {
+        font-size: 1rem;
+        font-style: bold;
+        border-top: 2px solid black;
+    }
+
+    .subtitle2-style {
+        font-size: 1rem;
+    }
+
+    td,
+    th {
+        vertical-align: middle;
+    }
+
+    thead {
+        position: sticky;
+        top: 0;
+    }
+
+}
